@@ -1,5 +1,8 @@
-print("hello, welcome to our creative store")
-creative_store_product = [ram, mouse, ssd, display, cpu, gpu, motherboard]
-user_demand = input("what do you want")
-user_demand = creative_store_product
-print(user_demand)
+print("Hello, welcome to our creative store")
+creative_store_product = ['ram', 'mouse', 'ssd', 'display', 'cpu', 'gpu', 'motherboard']
+print(creative_store_product)  # This line helps verify the list
+user_demand = input("What do you want? ").lower()
+if user_demand in creative_store_product:
+    print(f"Yes, we have {user_demand} in stock.")
+else:
+    print(f"Sorry, we don't have {user_demand} right now.")
