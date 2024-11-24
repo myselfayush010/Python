@@ -11,11 +11,16 @@
      pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
+    pkgs.zsh
+    pkgs.zsh-autocomplete
+    pkgs.zsh-autosuggestions
+    pkgs.zsh-nix-shell
   ];
+
 
   # Sets environment variables in the workspace
   env = {};
-  idx = {
+    idx = { 
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
@@ -30,7 +35,7 @@
         #   # and show it in IDX's web preview panel
         #   command = ["npm" "run" "dev"];
         #   manager = "web";
-        #   env = {
+        #  env = {
         #     # Environment variables to set for your server
         #     PORT = "$PORT";
         #   };
