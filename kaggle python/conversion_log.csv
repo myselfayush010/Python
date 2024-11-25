@@ -1,0 +1,2 @@
+source,destination,timestamp,status
+/home/nothing/Python/kaggle python/library.docx,/home/nothing/Python/kaggle python/library.pdf,2024-11-25 10:08:00.516079,failed: docx2pdf is not implemented for linux as it requires Microsoft Word to be installed
